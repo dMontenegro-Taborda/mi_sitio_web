@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='estilo.css') }}">
-    <title>CV Montenegro-Taborda</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV Montenegro-Taborda</title>
+  <!-- El CSS está en la misma carpeta -->
+  <link rel="stylesheet" href="estilo.css" />
 </head>
 <body>
-    <header>
-        <h1>Daniel Montenegro-Taborda</h1>
-        <h2>PhD student Astrofísica</h2>
-        <!-- Información de la imagen -->
-        <img src="{{ url_for('static', filename='img/foto_perfil.jpg') }}" alt="Foto de perfil" width="200">
-    </header>
+  <header>
+    <h1>Daniel Montenegro-Taborda</h1>
+    <h2>PhD student Astrofísica</h2>
+    <!-- La imagen está en la subcarpeta 'img' -->
+    <img src="img/foto_perfil.jpg" alt="Foto de perfil" width="200" />
+  </header>
     <section>
         <h3>Personal information</h3>
         <p><strong>Email:</strong> d.montenegro@irya.unam.mx</p>
